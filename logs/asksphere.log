@@ -1,0 +1,389 @@
+2026-11-02 17:06:18,682 | INFO | app.core.logging_config | Logging initialized. Level: INFO
+2026-11-02 17:06:18,695 | INFO | apscheduler.scheduler | Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-11-02 17:06:18,696 | INFO | apscheduler.scheduler | Added job "refresh_knowledge_base" to job store "default"
+2026-11-02 17:06:18,696 | INFO | apscheduler.scheduler | Scheduler started
+2026-11-02 17:06:18,697 | INFO | app.services.knowledge_refresh | Knowledge refresh scheduler started.
+2026-11-02 17:08:05,715 | INFO | apscheduler.scheduler | Scheduler has been shut down
+2026-11-03 10:04:09,561 | INFO | app.core.logging_config | Logging initialized. Level: INFO
+2026-11-03 10:04:09,568 | INFO | apscheduler.scheduler | Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-11-03 10:04:09,568 | INFO | apscheduler.scheduler | Added job "refresh_knowledge_base" to job store "default"
+2026-11-03 10:04:09,568 | INFO | apscheduler.scheduler | Scheduler started
+2026-11-03 10:04:09,569 | INFO | app.services.knowledge_refresh | Knowledge refresh scheduler started.
+2026-11-03 10:04:39,765 | INFO | asksphere.requests | Request started | request_id=9274aff3-8eab-461a-a081-c1e28bde08e7 | method=POST | path=/api/v1/chat
+2026-11-03 10:04:41,895 | INFO | sentence_transformers.base.model | No device provided, using cpu
+2026-11-03 10:04:43,546 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-11-03 10:04:43,547 | WARNING | huggingface_hub.utils._http | Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-11-03 10:04:43,847 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/modules.json?%2Fsentence-transformers%2Fall-MiniLM-L6-v2%2Fresolve%2Fmain%2Fmodules.json=&etag=%22952a9b81c0bfd99800fabf352f69c7ccd46c5e43%22 "HTTP/1.1 200 OK"
+2026-11-03 10:04:44,196 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-11-03 10:04:44,497 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config_sentence_transformers.json?%2Fsentence-transformers%2Fall-MiniLM-L6-v2%2Fresolve%2Fmain%2Fconfig_sentence_transformers.json=&etag=%22fd1b291129c607e5d49799f87cb219b27f98acdf%22 "HTTP/1.1 200 OK"
+2026-11-03 10:04:44,505 | INFO | sentence_transformers.base.model | Loading SentenceTransformer model from sentence-transformers/all-MiniLM-L6-v2.
+2026-11-03 10:04:44,849 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-11-03 10:04:45,148 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config_sentence_transformers.json?%2Fsentence-transformers%2Fall-MiniLM-L6-v2%2Fresolve%2Fmain%2Fconfig_sentence_transformers.json=&etag=%22fd1b291129c607e5d49799f87cb219b27f98acdf%22 "HTTP/1.1 200 OK"
+2026-11-03 10:04:45,486 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-03 10:04:45,785 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/README.md?%2Fsentence-transformers%2Fall-MiniLM-L6-v2%2Fresolve%2Fmain%2FREADME.md=&etag=%2244af2e3b0fa3a0b6239e48422972bf755f28fde0%22 "HTTP/1.1 200 OK"
+2026-11-03 10:04:46,142 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-11-03 10:04:46,441 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/modules.json?%2Fsentence-transformers%2Fall-MiniLM-L6-v2%2Fresolve%2Fmain%2Fmodules.json=&etag=%22952a9b81c0bfd99800fabf352f69c7ccd46c5e43%22 "HTTP/1.1 200 OK"
+2026-11-03 10:04:46,790 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-11-03 10:04:47,089 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/sentence_bert_config.json?%2Fsentence-transformers%2Fall-MiniLM-L6-v2%2Fresolve%2Fmain%2Fsentence_bert_config.json=&etag=%2259d594003bf59880a884c574bf88ef7555bb0202%22 "HTTP/1.1 200 OK"
+2026-11-03 10:04:47,442 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json "HTTP/1.1 404 Not Found"
+2026-11-03 10:04:47,820 | INFO | httpx | HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2 "HTTP/1.1 200 OK"
+2026-11-03 10:04:48,183 | INFO | httpx | HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2 "HTTP/1.1 200 OK"
+2026-11-03 10:04:48,901 | INFO | httpx | HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2 "HTTP/1.1 200 OK"
+2026-11-03 10:04:49,264 | INFO | httpx | HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-11-03 10:04:49,650 | INFO | httpx | HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-11-03 10:04:50,062 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/1_Pooling/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-11-03 10:04:50,363 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/1_Pooling%2Fconfig.json?%2Fsentence-transformers%2Fall-MiniLM-L6-v2%2Fresolve%2Fmain%2F1_Pooling%2Fconfig.json=&etag=%22d1514c3162bbe87b343f565fadc62e6c06f04f03%22 "HTTP/1.1 200 OK"
+2026-11-03 10:04:50,714 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/2_Normalize/config.json "HTTP/1.1 404 Not Found"
+2026-11-03 10:04:51,089 | INFO | httpx | HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2 "HTTP/1.1 200 OK"
+2026-11-03 10:04:53,818 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-03 10:04:55,314 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-03 10:04:55,537 | INFO | asksphere.requests | Request completed | request_id=9274aff3-8eab-461a-a081-c1e28bde08e7 | status=200 | duration_ms=15772.08
+2026-11-03 10:05:41,903 | INFO | asksphere.requests | Request started | request_id=cc06cb57-e09d-428b-8e6c-fa76012e30b8 | method=POST | path=/api/v1/chat
+2026-11-03 10:05:43,127 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-03 10:05:44,666 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-03 10:05:45,619 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-03 10:05:45,835 | INFO | asksphere.requests | Request completed | request_id=cc06cb57-e09d-428b-8e6c-fa76012e30b8 | status=200 | duration_ms=3932.09
+2026-11-03 10:08:41,338 | INFO | asksphere.requests | Request started | request_id=a1b32660-532d-4c7c-a574-81af6a07ae3b | method=POST | path=/api/v1/chat
+2026-11-03 10:08:42,657 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-03 10:08:45,767 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-03 10:08:47,136 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-03 10:08:47,418 | INFO | asksphere.requests | Request completed | request_id=a1b32660-532d-4c7c-a574-81af6a07ae3b | status=200 | duration_ms=6080.13
+2026-11-03 10:09:37,423 | INFO | asksphere.requests | Request started | request_id=01540a68-6f49-4d4c-8536-421b12f20569 | method=POST | path=/api/v1/chat
+2026-11-03 10:09:38,350 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-03 10:09:39,957 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-03 10:09:41,054 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-03 10:09:41,513 | INFO | asksphere.requests | Request completed | request_id=01540a68-6f49-4d4c-8536-421b12f20569 | status=200 | duration_ms=4089.10
+2026-11-03 10:12:10,545 | INFO | apscheduler.scheduler | Scheduler has been shut down
+2026-11-03 10:31:58,259 | INFO | app.core.logging_config | Logging initialized. Level: INFO
+2026-11-03 10:31:58,264 | INFO | apscheduler.scheduler | Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-11-03 10:31:58,265 | INFO | apscheduler.scheduler | Added job "refresh_knowledge_base" to job store "default"
+2026-11-03 10:31:58,265 | INFO | apscheduler.scheduler | Scheduler started
+2026-11-03 10:31:58,266 | INFO | app.services.knowledge_refresh | Knowledge refresh scheduler started.
+2026-11-03 10:32:10,813 | INFO | asksphere.requests | Request started | request_id=d7b91d98-e8b7-4826-ba2f-9c7b895c0336 | method=GET | path=/docs
+2026-11-03 10:32:10,814 | INFO | asksphere.requests | Request completed | request_id=d7b91d98-e8b7-4826-ba2f-9c7b895c0336 | status=200 | duration_ms=1.02
+2026-11-03 10:32:10,953 | INFO | asksphere.requests | Request started | request_id=9ee96c7b-2349-485d-a409-278cfe4b776c | method=GET | path=/openapi.json
+2026-11-03 10:32:10,977 | INFO | asksphere.requests | Request completed | request_id=9ee96c7b-2349-485d-a409-278cfe4b776c | status=200 | duration_ms=24.61
+2026-11-03 10:33:15,936 | INFO | asksphere.requests | Request started | request_id=5a8eeb73-3b4b-4ea2-ba1c-a0d8094bf658 | method=POST | path=/api/v1/liquipedia/crawl
+2026-11-03 10:33:15,939 | INFO | asksphere.requests | Request completed | request_id=5a8eeb73-3b4b-4ea2-ba1c-a0d8094bf658 | status=200 | duration_ms=2.66
+2026-11-03 10:33:15,940 | INFO | app.services.liquipedia_scraper | Starting Liquipedia Free Fire crawl...
+2026-11-03 10:33:22,663 | ERROR | app.services.liquipedia_scraper | Liquipedia returned HTTP 429. Stopping the crawler.
+2026-11-03 10:33:22,663 | ERROR | app.services.liquipedia_scraper | Liquipedia access is rate-limited. Crawl stopped. Check access and API terms before resuming.
+2026-11-03 10:33:22,665 | INFO | app.services.liquipedia_scraper | Total pages updated this run: 0
+2026-11-03 10:33:34,892 | INFO | asksphere.requests | Request started | request_id=4fb513af-b4ac-4fc2-8670-9183c9886c24 | method=POST | path=/api/v1/liquipedia/ingest
+2026-11-03 10:33:34,894 | INFO | asksphere.requests | Request completed | request_id=4fb513af-b4ac-4fc2-8670-9183c9886c24 | status=200 | duration_ms=2.02
+2026-11-03 10:33:35,102 | INFO | sentence_transformers.base.model | No device provided, using cpu
+2026-11-03 10:33:36,202 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-11-03 10:33:36,203 | WARNING | huggingface_hub.utils._http | Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-11-03 10:33:36,370 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/modules.json?%2Fsentence-transformers%2Fall-MiniLM-L6-v2%2Fresolve%2Fmain%2Fmodules.json=&etag=%22952a9b81c0bfd99800fabf352f69c7ccd46c5e43%22 "HTTP/1.1 200 OK"
+2026-11-03 10:33:36,632 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-11-03 10:33:36,821 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config_sentence_transformers.json?%2Fsentence-transformers%2Fall-MiniLM-L6-v2%2Fresolve%2Fmain%2Fconfig_sentence_transformers.json=&etag=%22fd1b291129c607e5d49799f87cb219b27f98acdf%22 "HTTP/1.1 200 OK"
+2026-11-03 10:33:36,823 | INFO | sentence_transformers.base.model | Loading SentenceTransformer model from sentence-transformers/all-MiniLM-L6-v2.
+2026-11-03 10:33:37,119 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-11-03 10:33:37,274 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config_sentence_transformers.json?%2Fsentence-transformers%2Fall-MiniLM-L6-v2%2Fresolve%2Fmain%2Fconfig_sentence_transformers.json=&etag=%22fd1b291129c607e5d49799f87cb219b27f98acdf%22 "HTTP/1.1 200 OK"
+2026-11-03 10:33:37,580 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-03 10:33:37,773 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/README.md?%2Fsentence-transformers%2Fall-MiniLM-L6-v2%2Fresolve%2Fmain%2FREADME.md=&etag=%2244af2e3b0fa3a0b6239e48422972bf755f28fde0%22 "HTTP/1.1 200 OK"
+2026-11-03 10:33:38,095 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-11-03 10:33:38,288 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/modules.json?%2Fsentence-transformers%2Fall-MiniLM-L6-v2%2Fresolve%2Fmain%2Fmodules.json=&etag=%22952a9b81c0bfd99800fabf352f69c7ccd46c5e43%22 "HTTP/1.1 200 OK"
+2026-11-03 10:33:38,552 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-11-03 10:33:38,756 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/sentence_bert_config.json?%2Fsentence-transformers%2Fall-MiniLM-L6-v2%2Fresolve%2Fmain%2Fsentence_bert_config.json=&etag=%2259d594003bf59880a884c574bf88ef7555bb0202%22 "HTTP/1.1 200 OK"
+2026-11-03 10:33:39,017 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json "HTTP/1.1 404 Not Found"
+2026-11-03 10:33:39,376 | INFO | httpx | HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2 "HTTP/1.1 200 OK"
+2026-11-03 10:33:39,747 | INFO | httpx | HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2 "HTTP/1.1 200 OK"
+2026-11-03 10:33:40,321 | INFO | httpx | HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2 "HTTP/1.1 200 OK"
+2026-11-03 10:33:40,647 | INFO | httpx | HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-11-03 10:33:40,910 | INFO | httpx | HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-11-03 10:33:41,345 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/1_Pooling/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-11-03 10:33:41,550 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/1_Pooling%2Fconfig.json?%2Fsentence-transformers%2Fall-MiniLM-L6-v2%2Fresolve%2Fmain%2F1_Pooling%2Fconfig.json=&etag=%22d1514c3162bbe87b343f565fadc62e6c06f04f03%22 "HTTP/1.1 200 OK"
+2026-11-03 10:33:41,932 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/2_Normalize/config.json "HTTP/1.1 404 Not Found"
+2026-11-03 10:33:42,288 | INFO | httpx | HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2 "HTTP/1.1 200 OK"
+2026-11-03 10:34:15,724 | INFO | asksphere.requests | Request started | request_id=7b1254cd-9af9-4fb3-8f4b-eca8fef10ee7 | method=POST | path=/api/v1/chat
+2026-11-03 10:34:20,446 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-03 10:34:21,912 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-03 10:34:22,344 | INFO | asksphere.requests | Request completed | request_id=7b1254cd-9af9-4fb3-8f4b-eca8fef10ee7 | status=200 | duration_ms=6619.80
+2026-11-03 11:59:48,316 | INFO | apscheduler.scheduler | Scheduler has been shut down
+2026-11-03 12:11:37,157 | INFO | app.core.logging_config | Logging initialized. Level: INFO
+2026-11-03 12:11:37,162 | INFO | apscheduler.scheduler | Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-11-03 12:11:37,162 | INFO | apscheduler.scheduler | Added job "refresh_knowledge_base" to job store "default"
+2026-11-03 12:11:37,162 | INFO | apscheduler.scheduler | Scheduler started
+2026-11-03 12:11:37,163 | INFO | app.services.knowledge_refresh | Knowledge refresh scheduler started.
+2026-11-03 12:11:48,593 | INFO | asksphere.requests | Request started | request_id=cfdd2d85-cd9d-496c-ae4e-f5d265a6a441 | method=GET | path=/docs
+2026-11-03 12:11:48,594 | INFO | asksphere.requests | Request completed | request_id=cfdd2d85-cd9d-496c-ae4e-f5d265a6a441 | status=200 | duration_ms=0.86
+2026-11-03 12:11:48,718 | INFO | asksphere.requests | Request started | request_id=0e71ccb1-bb7e-44f1-bb9a-6a9789fb0b19 | method=GET | path=/openapi.json
+2026-11-03 12:11:48,749 | INFO | asksphere.requests | Request completed | request_id=0e71ccb1-bb7e-44f1-bb9a-6a9789fb0b19 | status=200 | duration_ms=31.14
+2026-11-03 12:12:17,074 | INFO | asksphere.requests | Request started | request_id=455ceeb7-cf59-4b45-bfdd-341f8ed7247f | method=POST | path=/api/v1/liquipedia/crawl
+2026-11-03 12:12:17,085 | INFO | asksphere.requests | Request completed | request_id=455ceeb7-cf59-4b45-bfdd-341f8ed7247f | status=200 | duration_ms=10.75
+2026-11-03 12:12:17,087 | INFO | app.services.liquipedia_scraper | Starting Liquipedia Free Fire crawl...
+2026-11-03 12:12:32,345 | INFO | asksphere.requests | Request started | request_id=91b8b90e-6769-4e2f-a207-e6a338a9e342 | method=GET | path=/api/v1/escharts/tournaments
+2026-11-03 12:12:33,942 | INFO | asksphere.requests | Request completed | request_id=91b8b90e-6769-4e2f-a207-e6a338a9e342 | status=502 | duration_ms=1596.51
+2026-11-03 12:18:08,078 | INFO | app.core.logging_config | Logging initialized. Level: INFO
+2026-11-03 12:18:08,083 | INFO | apscheduler.scheduler | Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-11-03 12:18:08,083 | INFO | apscheduler.scheduler | Added job "refresh_knowledge_base" to job store "default"
+2026-11-03 12:18:08,084 | INFO | apscheduler.scheduler | Scheduler started
+2026-11-03 12:18:08,084 | INFO | app.services.knowledge_refresh | Knowledge refresh scheduler started.
+2026-11-03 12:18:22,724 | INFO | asksphere.requests | Request started | request_id=e81a32a5-36d2-4b79-9811-fbdeebae67bc | method=GET | path=/api/v1/escharts/tournaments
+2026-11-03 12:18:24,238 | INFO | httpx | HTTP Request: GET https://app.escharts.com/api/viewership/tournaments?search=Free+Fire&page=1 "HTTP/1.1 401 Unauthorized"
+2026-11-03 12:18:24,240 | INFO | asksphere.requests | Request completed | request_id=e81a32a5-36d2-4b79-9811-fbdeebae67bc | status=500 | duration_ms=1515.97
+2026-11-03 12:20:23,968 | INFO | apscheduler.scheduler | Scheduler has been shut down
+2026-11-03 12:20:59,283 | INFO | app.core.logging_config | Logging initialized. Level: INFO
+2026-11-03 12:20:59,288 | INFO | apscheduler.scheduler | Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-11-03 12:20:59,289 | INFO | apscheduler.scheduler | Added job "refresh_knowledge_base" to job store "default"
+2026-11-03 12:20:59,289 | INFO | apscheduler.scheduler | Scheduler started
+2026-11-03 12:20:59,290 | INFO | app.services.knowledge_refresh | Knowledge refresh scheduler started.
+2026-11-03 12:20:59,391 | INFO | apscheduler.scheduler | Scheduler has been shut down
+2026-11-03 12:21:13,605 | INFO | app.core.logging_config | Logging initialized. Level: INFO
+2026-11-03 12:21:13,609 | INFO | apscheduler.scheduler | Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-11-03 12:21:13,609 | INFO | apscheduler.scheduler | Added job "refresh_knowledge_base" to job store "default"
+2026-11-03 12:21:13,609 | INFO | apscheduler.scheduler | Scheduler started
+2026-11-03 12:21:13,610 | INFO | app.services.knowledge_refresh | Knowledge refresh scheduler started.
+2026-11-05 15:16:31,735 | INFO | app.core.logging_config | Logging initialized. Level: INFO
+2026-11-05 15:16:31,740 | INFO | apscheduler.scheduler | Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-11-05 15:16:31,741 | INFO | apscheduler.scheduler | Added job "refresh_knowledge_base" to job store "default"
+2026-11-05 15:16:31,741 | INFO | apscheduler.scheduler | Scheduler started
+2026-11-05 15:16:31,742 | INFO | app.services.knowledge_refresh | Knowledge refresh scheduler started.
+2026-11-05 15:16:42,830 | INFO | asksphere.requests | Request started | request_id=921c5377-a64b-4cb4-ab03-26199e8f2a43 | method=GET | path=/docs
+2026-11-05 15:16:42,831 | INFO | asksphere.requests | Request completed | request_id=921c5377-a64b-4cb4-ab03-26199e8f2a43 | status=200 | duration_ms=0.78
+2026-11-05 15:16:43,022 | INFO | asksphere.requests | Request started | request_id=35ed4f1a-9de4-4417-99c6-4bf73f7c83aa | method=GET | path=/openapi.json
+2026-11-05 15:16:43,047 | INFO | asksphere.requests | Request completed | request_id=35ed4f1a-9de4-4417-99c6-4bf73f7c83aa | status=200 | duration_ms=24.42
+2026-11-05 15:17:26,732 | INFO | asksphere.requests | Request started | request_id=ac58da4c-fae5-47fc-8665-84f6afad961c | method=POST | path=/api/v1/chat
+2026-11-05 15:17:27,907 | INFO | sentence_transformers.base.model | No device provided, using cpu
+2026-11-05 15:17:28,666 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-11-05 15:17:28,696 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/modules.json?%2Fsentence-transformers%2Fall-MiniLM-L6-v2%2Fresolve%2Fmain%2Fmodules.json=&etag=%22952a9b81c0bfd99800fabf352f69c7ccd46c5e43%22 "HTTP/1.1 200 OK"
+2026-11-05 15:17:28,931 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-11-05 15:17:28,932 | WARNING | huggingface_hub.utils._http | Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-11-05 15:17:28,953 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config_sentence_transformers.json?%2Fsentence-transformers%2Fall-MiniLM-L6-v2%2Fresolve%2Fmain%2Fconfig_sentence_transformers.json=&etag=%22fd1b291129c607e5d49799f87cb219b27f98acdf%22 "HTTP/1.1 200 OK"
+2026-11-05 15:17:28,955 | INFO | sentence_transformers.base.model | Loading SentenceTransformer model from sentence-transformers/all-MiniLM-L6-v2.
+2026-11-05 15:17:29,201 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-11-05 15:17:29,222 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config_sentence_transformers.json?%2Fsentence-transformers%2Fall-MiniLM-L6-v2%2Fresolve%2Fmain%2Fconfig_sentence_transformers.json=&etag=%22fd1b291129c607e5d49799f87cb219b27f98acdf%22 "HTTP/1.1 200 OK"
+2026-11-05 15:17:29,475 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-05 15:17:29,500 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/README.md?%2Fsentence-transformers%2Fall-MiniLM-L6-v2%2Fresolve%2Fmain%2FREADME.md=&etag=%2244af2e3b0fa3a0b6239e48422972bf755f28fde0%22 "HTTP/1.1 200 OK"
+2026-11-05 15:17:29,736 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-11-05 15:17:29,757 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/modules.json?%2Fsentence-transformers%2Fall-MiniLM-L6-v2%2Fresolve%2Fmain%2Fmodules.json=&etag=%22952a9b81c0bfd99800fabf352f69c7ccd46c5e43%22 "HTTP/1.1 200 OK"
+2026-11-05 15:17:29,991 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-11-05 15:17:30,010 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/sentence_bert_config.json?%2Fsentence-transformers%2Fall-MiniLM-L6-v2%2Fresolve%2Fmain%2Fsentence_bert_config.json=&etag=%2259d594003bf59880a884c574bf88ef7555bb0202%22 "HTTP/1.1 200 OK"
+2026-11-05 15:17:30,255 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json "HTTP/1.1 404 Not Found"
+2026-11-05 15:17:30,494 | INFO | httpx | HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2 "HTTP/1.1 200 OK"
+2026-11-05 15:17:30,775 | INFO | httpx | HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2 "HTTP/1.1 200 OK"
+2026-11-05 15:17:31,286 | INFO | httpx | HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2 "HTTP/1.1 200 OK"
+2026-11-05 15:17:31,569 | INFO | httpx | HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-11-05 15:17:31,817 | INFO | httpx | HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-11-05 15:17:32,111 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/1_Pooling/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-11-05 15:17:32,132 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/1_Pooling%2Fconfig.json?%2Fsentence-transformers%2Fall-MiniLM-L6-v2%2Fresolve%2Fmain%2F1_Pooling%2Fconfig.json=&etag=%22d1514c3162bbe87b343f565fadc62e6c06f04f03%22 "HTTP/1.1 200 OK"
+2026-11-05 15:17:32,382 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/2_Normalize/config.json "HTTP/1.1 404 Not Found"
+2026-11-05 15:17:32,634 | INFO | httpx | HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2 "HTTP/1.1 200 OK"
+2026-11-05 15:17:34,319 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-05 15:17:35,813 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-05 15:17:36,024 | INFO | asksphere.requests | Request completed | request_id=ac58da4c-fae5-47fc-8665-84f6afad961c | status=200 | duration_ms=9292.37
+2026-11-05 15:19:59,754 | INFO | asksphere.requests | Request started | request_id=b40b36e9-f918-49ec-b327-bf628db347df | method=POST | path=/api/v1/chat
+2026-11-05 15:20:00,832 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-05 15:20:02,076 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-05 15:20:02,917 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-05 15:20:03,176 | INFO | asksphere.requests | Request completed | request_id=b40b36e9-f918-49ec-b327-bf628db347df | status=200 | duration_ms=3422.13
+2026-11-05 15:20:34,621 | INFO | asksphere.requests | Request started | request_id=897a69d7-9499-4d61-a7f8-fb41333c85bd | method=POST | path=/api/v1/chat
+2026-11-05 15:20:35,460 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-05 15:20:36,576 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-05 15:20:37,473 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-05 15:20:37,685 | INFO | asksphere.requests | Request completed | request_id=897a69d7-9499-4d61-a7f8-fb41333c85bd | status=200 | duration_ms=3064.25
+2026-11-05 15:20:51,258 | INFO | asksphere.requests | Request started | request_id=1b5ff601-a8e4-46f8-aca0-3bffa85cb1ae | method=POST | path=/api/v1/chat
+2026-11-05 15:20:52,044 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-05 15:20:53,286 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-05 15:20:54,205 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-05 15:20:54,424 | INFO | asksphere.requests | Request completed | request_id=1b5ff601-a8e4-46f8-aca0-3bffa85cb1ae | status=200 | duration_ms=3165.29
+2026-11-05 15:21:06,303 | INFO | asksphere.requests | Request started | request_id=689edfe4-3082-4b85-933c-5e7a24fe0084 | method=POST | path=/api/v1/chat
+2026-11-05 15:21:07,099 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-05 15:21:07,274 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-05 15:21:07,275 | INFO | groq._base_client | Retrying request to /openai/v1/chat/completions in 11.000000 seconds
+2026-11-05 15:21:19,437 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-05 15:21:19,544 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-05 15:21:19,545 | INFO | groq._base_client | Retrying request to /openai/v1/chat/completions in 16.000000 seconds
+2026-11-05 15:21:36,553 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-05 15:21:36,776 | INFO | asksphere.requests | Request completed | request_id=689edfe4-3082-4b85-933c-5e7a24fe0084 | status=200 | duration_ms=30473.75
+2026-11-05 15:22:02,200 | INFO | apscheduler.scheduler | Scheduler has been shut down
+2026-11-05 15:22:29,026 | INFO | app.core.logging_config | Logging initialized. Level: INFO
+2026-11-05 15:22:29,038 | INFO | apscheduler.scheduler | Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-11-05 15:22:29,039 | INFO | apscheduler.scheduler | Added job "refresh_knowledge_base" to job store "default"
+2026-11-05 15:22:29,039 | INFO | apscheduler.scheduler | Scheduler started
+2026-11-05 15:22:29,040 | INFO | app.services.knowledge_refresh | Knowledge refresh scheduler started.
+2026-11-05 15:22:29,141 | INFO | apscheduler.scheduler | Scheduler has been shut down
+2026-11-05 15:22:52,741 | INFO | app.core.logging_config | Logging initialized. Level: INFO
+2026-11-05 15:22:52,747 | INFO | apscheduler.scheduler | Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-11-05 15:22:52,748 | INFO | apscheduler.scheduler | Added job "refresh_knowledge_base" to job store "default"
+2026-11-05 15:22:52,748 | INFO | apscheduler.scheduler | Scheduler started
+2026-11-05 15:22:52,749 | INFO | app.services.knowledge_refresh | Knowledge refresh scheduler started.
+2026-11-05 15:23:38,396 | INFO | apscheduler.scheduler | Scheduler has been shut down
+2026-11-05 16:08:10,561 | INFO | app.core.logging_config | Logging initialized. Level: INFO
+2026-11-05 16:08:10,566 | INFO | apscheduler.scheduler | Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-11-05 16:08:10,567 | INFO | apscheduler.scheduler | Added job "refresh_knowledge_base" to job store "default"
+2026-11-05 16:08:10,567 | INFO | apscheduler.scheduler | Scheduler started
+2026-11-05 16:08:10,568 | INFO | app.services.knowledge_refresh | Knowledge refresh scheduler started.
+2026-11-05 16:08:10,674 | INFO | apscheduler.scheduler | Scheduler has been shut down
+2026-11-05 16:09:25,984 | INFO | app.core.logging_config | Logging initialized. Level: INFO
+2026-11-05 16:09:25,988 | INFO | apscheduler.scheduler | Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-11-05 16:09:25,989 | INFO | apscheduler.scheduler | Added job "refresh_knowledge_base" to job store "default"
+2026-11-05 16:09:25,989 | INFO | apscheduler.scheduler | Scheduler started
+2026-11-05 16:09:25,989 | INFO | app.services.knowledge_refresh | Knowledge refresh scheduler started.
+2026-11-05 16:09:37,673 | INFO | asksphere.requests | Request started | request_id=4a11cfd1-fca6-4a82-89a9-cb5fa8615bf4 | method=GET | path=/docs
+2026-11-05 16:09:37,674 | INFO | asksphere.requests | Request completed | request_id=4a11cfd1-fca6-4a82-89a9-cb5fa8615bf4 | status=200 | duration_ms=0.74
+2026-11-05 16:09:37,888 | INFO | asksphere.requests | Request started | request_id=46bd8ddb-64ed-472f-8087-b7d21caa61c2 | method=GET | path=/openapi.json
+2026-11-05 16:09:37,908 | INFO | asksphere.requests | Request completed | request_id=46bd8ddb-64ed-472f-8087-b7d21caa61c2 | status=200 | duration_ms=19.34
+2026-11-05 16:10:33,873 | INFO | asksphere.requests | Request started | request_id=8ad9f224-330e-470b-be53-4aa3ac6cbf4b | method=POST | path=/api/v1/chat
+2026-11-05 16:10:33,875 | INFO | asksphere.requests | Request completed | request_id=8ad9f224-330e-470b-be53-4aa3ac6cbf4b | status=422 | duration_ms=1.60
+2026-11-05 16:10:49,153 | INFO | asksphere.requests | Request started | request_id=bfbfdc57-d9d6-46f7-9ce0-207203675904 | method=POST | path=/api/v1/chat
+2026-11-05 16:10:49,154 | INFO | asksphere.requests | Request completed | request_id=bfbfdc57-d9d6-46f7-9ce0-207203675904 | status=422 | duration_ms=1.00
+2026-11-05 16:11:45,518 | INFO | asksphere.requests | Request started | request_id=67e6a245-8441-4cef-8a22-e63251d38858 | method=POST | path=/api/v1/chat
+2026-11-05 16:11:45,519 | INFO | asksphere.requests | Request completed | request_id=67e6a245-8441-4cef-8a22-e63251d38858 | status=422 | duration_ms=0.97
+2026-11-05 16:11:46,736 | INFO | asksphere.requests | Request started | request_id=7ebd0e13-43ad-440b-81b7-31106ccdf64f | method=POST | path=/api/v1/chat
+2026-11-05 16:11:46,737 | INFO | asksphere.requests | Request completed | request_id=7ebd0e13-43ad-440b-81b7-31106ccdf64f | status=422 | duration_ms=1.14
+2026-11-05 16:13:43,846 | INFO | asksphere.requests | Request started | request_id=953e6a2e-a5b0-45c3-9fa4-e3c3039986df | method=POST | path=/api/v1/chat
+2026-11-05 16:13:45,038 | INFO | sentence_transformers.base.model | No device provided, using cpu
+2026-11-05 16:13:45,725 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-11-05 16:13:45,727 | WARNING | huggingface_hub.utils._http | Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-11-05 16:13:45,747 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/modules.json?%2Fsentence-transformers%2Fall-MiniLM-L6-v2%2Fresolve%2Fmain%2Fmodules.json=&etag=%22952a9b81c0bfd99800fabf352f69c7ccd46c5e43%22 "HTTP/1.1 200 OK"
+2026-11-05 16:13:46,006 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-11-05 16:13:46,028 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config_sentence_transformers.json?%2Fsentence-transformers%2Fall-MiniLM-L6-v2%2Fresolve%2Fmain%2Fconfig_sentence_transformers.json=&etag=%22fd1b291129c607e5d49799f87cb219b27f98acdf%22 "HTTP/1.1 200 OK"
+2026-11-05 16:13:46,031 | INFO | sentence_transformers.base.model | Loading SentenceTransformer model from sentence-transformers/all-MiniLM-L6-v2.
+2026-11-05 16:13:46,275 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-11-05 16:13:46,297 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config_sentence_transformers.json?%2Fsentence-transformers%2Fall-MiniLM-L6-v2%2Fresolve%2Fmain%2Fconfig_sentence_transformers.json=&etag=%22fd1b291129c607e5d49799f87cb219b27f98acdf%22 "HTTP/1.1 200 OK"
+2026-11-05 16:13:46,546 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-05 16:13:46,566 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/README.md?%2Fsentence-transformers%2Fall-MiniLM-L6-v2%2Fresolve%2Fmain%2FREADME.md=&etag=%2244af2e3b0fa3a0b6239e48422972bf755f28fde0%22 "HTTP/1.1 200 OK"
+2026-11-05 16:13:46,806 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-11-05 16:13:46,836 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/modules.json?%2Fsentence-transformers%2Fall-MiniLM-L6-v2%2Fresolve%2Fmain%2Fmodules.json=&etag=%22952a9b81c0bfd99800fabf352f69c7ccd46c5e43%22 "HTTP/1.1 200 OK"
+2026-11-05 16:13:47,092 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-11-05 16:13:47,117 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/sentence_bert_config.json?%2Fsentence-transformers%2Fall-MiniLM-L6-v2%2Fresolve%2Fmain%2Fsentence_bert_config.json=&etag=%2259d594003bf59880a884c574bf88ef7555bb0202%22 "HTTP/1.1 200 OK"
+2026-11-05 16:13:47,354 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json "HTTP/1.1 404 Not Found"
+2026-11-05 16:13:47,620 | INFO | httpx | HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2 "HTTP/1.1 200 OK"
+2026-11-05 16:13:47,899 | INFO | httpx | HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2 "HTTP/1.1 200 OK"
+2026-11-05 16:13:48,403 | INFO | httpx | HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2 "HTTP/1.1 200 OK"
+2026-11-05 16:13:48,694 | INFO | httpx | HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-11-05 16:13:48,932 | INFO | httpx | HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-11-05 16:13:49,203 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/1_Pooling/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-11-05 16:13:49,223 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/1_Pooling%2Fconfig.json?%2Fsentence-transformers%2Fall-MiniLM-L6-v2%2Fresolve%2Fmain%2F1_Pooling%2Fconfig.json=&etag=%22d1514c3162bbe87b343f565fadc62e6c06f04f03%22 "HTTP/1.1 200 OK"
+2026-11-05 16:13:49,470 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/2_Normalize/config.json "HTTP/1.1 404 Not Found"
+2026-11-05 16:13:49,721 | INFO | httpx | HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2 "HTTP/1.1 200 OK"
+2026-11-05 16:13:52,390 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-05 16:13:53,602 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-05 16:13:53,865 | INFO | asksphere.requests | Request completed | request_id=953e6a2e-a5b0-45c3-9fa4-e3c3039986df | status=200 | duration_ms=10018.88
+2026-11-05 16:14:10,989 | INFO | asksphere.requests | Request started | request_id=9696c6b2-9482-4193-9402-a9d8ec176230 | method=POST | path=/api/v1/chat
+2026-11-05 16:14:12,625 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-05 16:14:13,624 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-05 16:14:13,846 | INFO | asksphere.requests | Request completed | request_id=9696c6b2-9482-4193-9402-a9d8ec176230 | status=200 | duration_ms=2857.15
+2026-11-05 16:14:23,282 | INFO | asksphere.requests | Request started | request_id=c749d7cf-16e0-4174-b9dc-8a20ac7d9926 | method=POST | path=/api/v1/chat
+2026-11-05 16:14:25,264 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-05 16:14:26,366 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-05 16:14:26,580 | INFO | asksphere.requests | Request completed | request_id=c749d7cf-16e0-4174-b9dc-8a20ac7d9926 | status=200 | duration_ms=3298.26
+2026-11-05 16:14:55,275 | INFO | asksphere.requests | Request started | request_id=3bb30bee-f8ae-4ddb-bcd8-be9a4f653963 | method=POST | path=/api/v1/chat
+2026-11-05 16:14:56,360 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-05 16:14:57,347 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-05 16:14:57,562 | INFO | asksphere.requests | Request completed | request_id=3bb30bee-f8ae-4ddb-bcd8-be9a4f653963 | status=200 | duration_ms=2286.10
+2026-11-05 16:16:09,205 | INFO | asksphere.requests | Request started | request_id=f606dabb-aee4-4394-acce-1fe9ad81f13a | method=POST | path=/api/v1/chat
+2026-11-05 16:16:10,349 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-05 16:16:11,348 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-05 16:16:11,573 | INFO | asksphere.requests | Request completed | request_id=f606dabb-aee4-4394-acce-1fe9ad81f13a | status=200 | duration_ms=2368.05
+2026-11-05 16:16:41,509 | INFO | asksphere.requests | Request started | request_id=4d12e15a-ea9f-46f1-9f50-c8cd9db41239 | method=POST | path=/api/v1/chat
+2026-11-05 16:16:43,165 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-05 16:16:43,982 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-05 16:16:44,211 | INFO | asksphere.requests | Request completed | request_id=4d12e15a-ea9f-46f1-9f50-c8cd9db41239 | status=200 | duration_ms=2702.39
+2026-11-05 16:16:57,452 | INFO | asksphere.requests | Request started | request_id=4b9c760e-91dd-42ce-9393-aeab2c15d7b1 | method=POST | path=/api/v1/chat
+2026-11-05 16:16:58,816 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-05 16:16:59,946 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-05 16:17:00,216 | INFO | asksphere.requests | Request completed | request_id=4b9c760e-91dd-42ce-9393-aeab2c15d7b1 | status=200 | duration_ms=2764.21
+2026-11-05 16:17:12,929 | INFO | asksphere.requests | Request started | request_id=5293d16e-b3ff-4303-9445-a64ac07f8031 | method=POST | path=/api/v1/chat
+2026-11-05 16:17:14,548 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-05 16:17:15,592 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-05 16:17:15,850 | INFO | asksphere.requests | Request completed | request_id=5293d16e-b3ff-4303-9445-a64ac07f8031 | status=200 | duration_ms=2921.12
+2026-11-05 16:18:07,370 | INFO | asksphere.requests | Request started | request_id=101caadc-ccb2-492d-a38d-a18969dbcb12 | method=POST | path=/api/v1/chat
+2026-11-05 16:18:09,681 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-05 16:18:10,860 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-05 16:18:11,088 | INFO | asksphere.requests | Request completed | request_id=101caadc-ccb2-492d-a38d-a18969dbcb12 | status=200 | duration_ms=3717.37
+2026-11-05 16:19:55,111 | INFO | apscheduler.scheduler | Scheduler has been shut down
+2026-11-05 16:20:20,997 | INFO | app.core.logging_config | Logging initialized. Level: INFO
+2026-11-05 16:20:21,006 | INFO | apscheduler.scheduler | Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-11-05 16:20:21,007 | INFO | apscheduler.scheduler | Added job "refresh_knowledge_base" to job store "default"
+2026-11-05 16:20:21,007 | INFO | apscheduler.scheduler | Scheduler started
+2026-11-05 16:20:21,008 | INFO | app.services.knowledge_refresh | Knowledge refresh scheduler started.
+2026-11-05 16:20:21,115 | INFO | apscheduler.scheduler | Scheduler has been shut down
+2026-11-05 16:20:37,991 | INFO | app.core.logging_config | Logging initialized. Level: INFO
+2026-11-05 16:20:37,995 | INFO | apscheduler.scheduler | Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-11-05 16:20:37,995 | INFO | apscheduler.scheduler | Added job "refresh_knowledge_base" to job store "default"
+2026-11-05 16:20:37,995 | INFO | apscheduler.scheduler | Scheduler started
+2026-11-05 16:20:37,996 | INFO | app.services.knowledge_refresh | Knowledge refresh scheduler started.
+2026-11-05 16:20:59,957 | INFO | asksphere.requests | Request started | request_id=9bc505c1-c720-4196-a518-d1c71044a3ed | method=POST | path=/api/v1/chat
+2026-11-05 16:21:01,422 | INFO | sentence_transformers.base.model | No device provided, using cpu
+2026-11-05 16:21:02,190 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-11-05 16:21:02,191 | WARNING | huggingface_hub.utils._http | Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-11-05 16:21:02,209 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/modules.json?%2Fsentence-transformers%2Fall-MiniLM-L6-v2%2Fresolve%2Fmain%2Fmodules.json=&etag=%22952a9b81c0bfd99800fabf352f69c7ccd46c5e43%22 "HTTP/1.1 200 OK"
+2026-11-05 16:21:02,459 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-11-05 16:21:02,477 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config_sentence_transformers.json?%2Fsentence-transformers%2Fall-MiniLM-L6-v2%2Fresolve%2Fmain%2Fconfig_sentence_transformers.json=&etag=%22fd1b291129c607e5d49799f87cb219b27f98acdf%22 "HTTP/1.1 200 OK"
+2026-11-05 16:21:02,479 | INFO | sentence_transformers.base.model | Loading SentenceTransformer model from sentence-transformers/all-MiniLM-L6-v2.
+2026-11-05 16:21:02,712 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-11-05 16:21:02,729 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config_sentence_transformers.json?%2Fsentence-transformers%2Fall-MiniLM-L6-v2%2Fresolve%2Fmain%2Fconfig_sentence_transformers.json=&etag=%22fd1b291129c607e5d49799f87cb219b27f98acdf%22 "HTTP/1.1 200 OK"
+2026-11-05 16:21:02,980 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-05 16:21:03,000 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/README.md?%2Fsentence-transformers%2Fall-MiniLM-L6-v2%2Fresolve%2Fmain%2FREADME.md=&etag=%2244af2e3b0fa3a0b6239e48422972bf755f28fde0%22 "HTTP/1.1 200 OK"
+2026-11-05 16:21:03,250 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-11-05 16:21:03,269 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/modules.json?%2Fsentence-transformers%2Fall-MiniLM-L6-v2%2Fresolve%2Fmain%2Fmodules.json=&etag=%22952a9b81c0bfd99800fabf352f69c7ccd46c5e43%22 "HTTP/1.1 200 OK"
+2026-11-05 16:21:03,517 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-11-05 16:21:03,539 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/sentence_bert_config.json?%2Fsentence-transformers%2Fall-MiniLM-L6-v2%2Fresolve%2Fmain%2Fsentence_bert_config.json=&etag=%2259d594003bf59880a884c574bf88ef7555bb0202%22 "HTTP/1.1 200 OK"
+2026-11-05 16:21:03,791 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json "HTTP/1.1 404 Not Found"
+2026-11-05 16:21:04,045 | INFO | httpx | HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2 "HTTP/1.1 200 OK"
+2026-11-05 16:21:04,327 | INFO | httpx | HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2 "HTTP/1.1 200 OK"
+2026-11-05 16:21:04,926 | INFO | httpx | HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2 "HTTP/1.1 200 OK"
+2026-11-05 16:21:05,201 | INFO | httpx | HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-11-05 16:21:05,435 | INFO | httpx | HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-11-05 16:21:05,823 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/1_Pooling/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-11-05 16:21:05,841 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/1_Pooling%2Fconfig.json?%2Fsentence-transformers%2Fall-MiniLM-L6-v2%2Fresolve%2Fmain%2F1_Pooling%2Fconfig.json=&etag=%22d1514c3162bbe87b343f565fadc62e6c06f04f03%22 "HTTP/1.1 200 OK"
+2026-11-05 16:21:06,091 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/2_Normalize/config.json "HTTP/1.1 404 Not Found"
+2026-11-05 16:21:06,339 | INFO | httpx | HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2 "HTTP/1.1 200 OK"
+2026-11-05 16:21:09,285 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-05 16:21:10,708 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-05 16:21:10,950 | INFO | asksphere.requests | Request completed | request_id=9bc505c1-c720-4196-a518-d1c71044a3ed | status=200 | duration_ms=10992.77
+2026-11-05 16:21:29,812 | INFO | asksphere.requests | Request started | request_id=b22d1ad3-6abe-4eee-a1f0-6211a95427e9 | method=POST | path=/api/v1/chat
+2026-11-05 16:21:32,170 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-05 16:21:33,203 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-05 16:21:33,428 | INFO | asksphere.requests | Request completed | request_id=b22d1ad3-6abe-4eee-a1f0-6211a95427e9 | status=200 | duration_ms=3615.47
+2026-11-05 16:23:26,143 | INFO | apscheduler.scheduler | Scheduler has been shut down
+2026-11-05 16:23:49,518 | INFO | app.core.logging_config | Logging initialized. Level: INFO
+2026-11-05 16:23:49,523 | INFO | apscheduler.scheduler | Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-11-05 16:23:49,524 | INFO | apscheduler.scheduler | Added job "refresh_knowledge_base" to job store "default"
+2026-11-05 16:23:49,524 | INFO | apscheduler.scheduler | Scheduler started
+2026-11-05 16:23:49,525 | INFO | app.services.knowledge_refresh | Knowledge refresh scheduler started.
+2026-11-05 16:23:49,635 | INFO | apscheduler.scheduler | Scheduler has been shut down
+2026-11-05 16:24:05,865 | INFO | app.core.logging_config | Logging initialized. Level: INFO
+2026-11-05 16:24:05,869 | INFO | apscheduler.scheduler | Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-11-05 16:24:05,870 | INFO | apscheduler.scheduler | Added job "refresh_knowledge_base" to job store "default"
+2026-11-05 16:24:05,870 | INFO | apscheduler.scheduler | Scheduler started
+2026-11-05 16:24:05,871 | INFO | app.services.knowledge_refresh | Knowledge refresh scheduler started.
+2026-11-05 16:24:05,899 | INFO | asksphere.requests | Request started | request_id=ed9e73be-8e1e-415f-aa93-5b52068684a3 | method=POST | path=/api/v1/chat
+2026-11-05 16:24:07,160 | INFO | sentence_transformers.base.model | No device provided, using cpu
+2026-11-05 16:24:07,790 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-11-05 16:24:07,791 | WARNING | huggingface_hub.utils._http | Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-11-05 16:24:07,810 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/modules.json?%2Fsentence-transformers%2Fall-MiniLM-L6-v2%2Fresolve%2Fmain%2Fmodules.json=&etag=%22952a9b81c0bfd99800fabf352f69c7ccd46c5e43%22 "HTTP/1.1 200 OK"
+2026-11-05 16:24:08,041 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-11-05 16:24:08,060 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config_sentence_transformers.json?%2Fsentence-transformers%2Fall-MiniLM-L6-v2%2Fresolve%2Fmain%2Fconfig_sentence_transformers.json=&etag=%22fd1b291129c607e5d49799f87cb219b27f98acdf%22 "HTTP/1.1 200 OK"
+2026-11-05 16:24:08,061 | INFO | sentence_transformers.base.model | Loading SentenceTransformer model from sentence-transformers/all-MiniLM-L6-v2.
+2026-11-05 16:24:08,299 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-11-05 16:24:08,317 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config_sentence_transformers.json?%2Fsentence-transformers%2Fall-MiniLM-L6-v2%2Fresolve%2Fmain%2Fconfig_sentence_transformers.json=&etag=%22fd1b291129c607e5d49799f87cb219b27f98acdf%22 "HTTP/1.1 200 OK"
+2026-11-05 16:24:08,548 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-05 16:24:08,568 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/README.md?%2Fsentence-transformers%2Fall-MiniLM-L6-v2%2Fresolve%2Fmain%2FREADME.md=&etag=%2244af2e3b0fa3a0b6239e48422972bf755f28fde0%22 "HTTP/1.1 200 OK"
+2026-11-05 16:24:08,824 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-11-05 16:24:08,843 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/modules.json?%2Fsentence-transformers%2Fall-MiniLM-L6-v2%2Fresolve%2Fmain%2Fmodules.json=&etag=%22952a9b81c0bfd99800fabf352f69c7ccd46c5e43%22 "HTTP/1.1 200 OK"
+2026-11-05 16:24:09,092 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-11-05 16:24:09,113 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/sentence_bert_config.json?%2Fsentence-transformers%2Fall-MiniLM-L6-v2%2Fresolve%2Fmain%2Fsentence_bert_config.json=&etag=%2259d594003bf59880a884c574bf88ef7555bb0202%22 "HTTP/1.1 200 OK"
+2026-11-05 16:24:09,349 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json "HTTP/1.1 404 Not Found"
+2026-11-05 16:24:09,588 | INFO | httpx | HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2 "HTTP/1.1 200 OK"
+2026-11-05 16:24:09,873 | INFO | httpx | HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2 "HTTP/1.1 200 OK"
+2026-11-05 16:24:10,376 | INFO | httpx | HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2 "HTTP/1.1 200 OK"
+2026-11-05 16:24:10,645 | INFO | httpx | HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-11-05 16:24:10,894 | INFO | httpx | HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-11-05 16:24:11,262 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/1_Pooling/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-11-05 16:24:11,286 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/1_Pooling%2Fconfig.json?%2Fsentence-transformers%2Fall-MiniLM-L6-v2%2Fresolve%2Fmain%2F1_Pooling%2Fconfig.json=&etag=%22d1514c3162bbe87b343f565fadc62e6c06f04f03%22 "HTTP/1.1 200 OK"
+2026-11-05 16:24:11,535 | INFO | httpx | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/2_Normalize/config.json "HTTP/1.1 404 Not Found"
+2026-11-05 16:24:11,772 | INFO | httpx | HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2 "HTTP/1.1 200 OK"
+2026-11-05 16:24:14,606 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-05 16:24:15,941 | INFO | httpx | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-05 16:24:16,161 | INFO | asksphere.requests | Request completed | request_id=ed9e73be-8e1e-415f-aa93-5b52068684a3 | status=200 | duration_ms=10262.19
+2026-11-05 16:24:16,269 | INFO | apscheduler.scheduler | Scheduler has been shut down
+2026-11-05 16:24:33,014 | INFO | app.core.logging_config | Logging initialized. Level: INFO
+2026-11-05 16:24:33,018 | INFO | apscheduler.scheduler | Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-11-05 16:24:33,019 | INFO | apscheduler.scheduler | Added job "refresh_knowledge_base" to job store "default"
+2026-11-05 16:24:33,019 | INFO | apscheduler.scheduler | Scheduler started
+2026-11-05 16:24:33,020 | INFO | app.services.knowledge_refresh | Knowledge refresh scheduler started.
+2026-11-05 16:24:33,125 | INFO | apscheduler.scheduler | Scheduler has been shut down
