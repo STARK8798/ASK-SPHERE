@@ -1,0 +1,14 @@
+TITLE: USP-2
+URL: https://liquipedia.net/freefire/USP-2
+SOURCE_TYPE: liquipedia
+SCRAPED_AT: 2026-11-05T10:30:57.125733+00:00
+
+CONTENT:
+About
+Double the goodness of a USP.
+
+
+Attachments
+
+
+References

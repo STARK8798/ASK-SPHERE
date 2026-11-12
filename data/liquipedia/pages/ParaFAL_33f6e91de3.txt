@@ -1,0 +1,14 @@
+TITLE: ParaFAL
+URL: https://liquipedia.net/freefire/ParaFAL
+SOURCE_TYPE: liquipedia
+SCRAPED_AT: 2026-11-05T10:25:17.455062+00:00
+
+CONTENT:
+About
+The ParaFAL uses AR ammo, has great damages and good mobility. 
+
+
+Attachments
+
+
+References

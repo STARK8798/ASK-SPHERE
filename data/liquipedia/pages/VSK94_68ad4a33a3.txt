@@ -1,0 +1,14 @@
+TITLE: VSK94
+URL: https://liquipedia.net/freefire/VSK94
+SOURCE_TYPE: liquipedia
+SCRAPED_AT: 2026-11-05T10:31:10.287219+00:00
+
+CONTENT:
+About
+A lightweight sniper with a special aiming mechanism with in build Silencer.
+
+
+Attachments
+
+
+References

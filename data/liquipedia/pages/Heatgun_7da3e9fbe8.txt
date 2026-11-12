@@ -1,0 +1,14 @@
+TITLE: Heatgun
+URL: https://liquipedia.net/freefire/Heatgun
+SOURCE_TYPE: liquipedia
+SCRAPED_AT: 2026-11-05T10:16:16.795939+00:00
+
+CONTENT:
+About
+The Heatgun is a high tech weapon that uses energy to fire. The gun overheats if players use it for too long.
+
+
+Attachments
+
+
+References

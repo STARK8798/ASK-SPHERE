@@ -1,0 +1,7 @@
+TITLE: PVS/Results
+URL: https://liquipedia.net/freefire/PVS/Results
+SOURCE_TYPE: liquipedia
+SCRAPED_AT: 2026-11-05T10:25:08.652411+00:00
+
+CONTENT:
+Detailed Results

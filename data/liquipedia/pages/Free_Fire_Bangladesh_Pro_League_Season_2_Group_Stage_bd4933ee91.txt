@@ -1,0 +1,28 @@
+TITLE: Free Fire Bangladesh Pro League/Season 2/Group Stage
+URL: https://liquipedia.net/freefire/Free_Fire_Bangladesh_Pro_League/Season_2/Group_Stage
+SOURCE_TYPE: liquipedia
+SCRAPED_AT: 2026-11-05T10:11:59.739548+00:00
+
+CONTENT:
+Format
+FFBPL S2 - Group Stage: 4 matchdays;
+Day 1: April 15th, 2026
+72 teams, divided into 6 groups of 12.
+Each group consists of 11 qualified teams & 1 invited team.
+Each group plays 6 matches.
+Top 8 teams of each group advance to Day 2.
+Day 2: April 16th, 2026
+48 teams divided into 4 groups of 12.
+Each group plays 6 matches.
+Top 9 teams of each group advance to Day 3.
+Day 3: April 17th, 2026
+36 teams divided into 3 groups of 12.
+Each group plays 6 matches.
+Top 8 teams of each group advance to Day 4.
+Day 4: April 18th, 2026
+24 teams divided into 2 groups of 12.
+Each group plays 6 matches.
+Top 9 teams of each group advance to Knockout Stage.
+
+
+Results

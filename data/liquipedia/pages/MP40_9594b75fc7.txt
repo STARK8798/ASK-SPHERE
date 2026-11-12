@@ -1,0 +1,14 @@
+TITLE: MP40
+URL: https://liquipedia.net/freefire/MP40
+SOURCE_TYPE: liquipedia
+SCRAPED_AT: 2026-11-05T10:22:05.396412+00:00
+
+CONTENT:
+About
+The MP40  provides stable and high fire rate in Short Range, the weapon cannot use any attachments other than a magazine and a stock
+
+
+Attachments
+
+
+References

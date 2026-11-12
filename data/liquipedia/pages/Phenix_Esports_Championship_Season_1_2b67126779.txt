@@ -1,0 +1,36 @@
+TITLE: Phenix/Esports Championship/Season 1
+URL: https://liquipedia.net/freefire/Phenix/Esports_Championship/Season_1
+SOURCE_TYPE: liquipedia
+SCRAPED_AT: 2026-11-05T10:25:26.345855+00:00
+
+CONTENT:
+About
+
+
+Format
+* Registration from February 15th - March 4th
+Qualifiers: March 7th, 2026
+48 teams, divided into 4 groups of 12.
+Each group plays 3 matches.
+Top 3 teams each group qualify for Final.
+Final: March 7th, 2026
+12 teams.
+5 matches.
+
+
+Prize Pool
+
+
+Results
+
+
+Broadcast
+
+
+Talents
+
+
+Streams
+
+
+References

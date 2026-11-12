@@ -1,0 +1,14 @@
+TITLE: M60
+URL: https://liquipedia.net/freefire/M60
+SOURCE_TYPE: liquipedia
+SCRAPED_AT: 2026-11-05T10:21:33.942426+00:00
+
+CONTENT:
+About
+The M60 is a standard light machine gun. Comes with large magazines and solid mid-range fire power.
+
+
+Attachments
+
+
+References
